@@ -1,4 +1,4 @@
-Quill.js version 0.20.0 for Meteor.
+Quill.js version 0.20.1 for Meteor.
 
 #Installation
     meteor add themeteorites:quilljs
