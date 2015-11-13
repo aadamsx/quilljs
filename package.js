@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'aadamsx:quilljs',
+  name: 'aadams:quilljs',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Quill.js version 0.20.1 for Meteor',

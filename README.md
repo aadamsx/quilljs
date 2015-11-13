@@ -1,7 +1,7 @@
 Quill.js version 0.20.1 for Meteor.
 
 #Installation
-    meteor add themeteorites:quilljs
+    meteor add aadams:quilljs
 
 #Howto Use
 The package provides the ```Quill``` class to your Meteor app.
