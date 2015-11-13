@@ -9,15 +9,18 @@ The package provides the ```Quill``` class to your Meteor app.
 A small example how to use it in your app
 
 ```
-Template.editor.rendered = ->
-
-  basicEditor = new Quill(".basic-wrapper .editor-container",
-    modules:
-      toolbar:
+Template.editor.rendered = function() {
+  var basicEditor;
+  return basicEditor = new Quill(".basic-wrapper .editor-container", {
+    modules: {
+      toolbar: {
         container: ".basic-wrapper .toolbar-container"
-    styles: false
+      }
+    },
+    styles: false,
     theme: "snow"
-  )
+  });
+};
 ```
 For more examples, visit [Quill's homepage](quilljs.com).
 
